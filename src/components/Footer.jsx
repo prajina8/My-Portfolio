@@ -33,14 +33,14 @@ export default function Footer() {
               rel="noreferrer"
               className="rounded-lg bg-neutral-900 p-2 hover:text-orange-500"
             >
-              <Github size={18} />
+              <Github />
             </a>
 
             <a
               href="#"
               className="rounded-lg bg-neutral-900 p-2 hover:text-orange-500"
             >
-              <Linkedin size={18} />
+              <Linkedin />
             </a>
 
             <button
