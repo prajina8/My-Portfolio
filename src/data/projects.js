@@ -46,6 +46,22 @@ export const projects = [
     demo: "#",
     category: "Full Stack",
   },
+   {
+    title: "Mock Exam Platform",
+    description:
+      "A full-stack platform for practicing and preparing for exams",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
+    github:
+      "https://github.com/prajina8/Mock-Mitra",
+    demo: "#",
+    category: "Full Stack",
+  },
 
  
 ];
