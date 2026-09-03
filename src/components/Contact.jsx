@@ -100,13 +100,14 @@ export default function Contact() {
                 <Github />
               </a>
 
-              <a
-                href="#"
-                className="rounded-lg bg-neutral-800 p-3 transition hover:bg-orange-500"
-              >
-                <Linkedin />
-              </a>
-
+            <a
+  href="https://www.linkedin.com/in/prajina-adhikari-931b38343"
+  target="_blank"
+  rel="noreferrer"
+  className="rounded-full p-2 hover:bg-neutral-100"
+>
+  <Linkedin size={19} />
+</a>
             </div>
 
           </div>

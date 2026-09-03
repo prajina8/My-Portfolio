@@ -69,12 +69,14 @@ export default function Hero() {
                 <Github />
               </a>
 
-              <a
-                href="#"
-                className="text-neutral-500 hover:text-orange-500"
-              >
-                <Linkedin />
-              </a>
+             <a
+  href="https://www.linkedin.com/in/prajina-adhikari-931b38343"
+  target="_blank"
+  rel="noreferrer"
+  className="rounded-full p-2 hover:bg-neutral-100"
+>
+  <Linkedin size={19} />
+</a>
 
               <a
                 href="mailto:your-email@example.com"
