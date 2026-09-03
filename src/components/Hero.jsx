@@ -90,21 +90,17 @@ export default function Hero() {
 
               <div className="absolute -inset-5 rounded-full bg-orange-100 blur-2xl"></div>
 
-              <div className="relative flex h-72 w-72 items-center justify-center rounded-full border-8 border-orange-100 bg-neutral-100 md:h-96 md:w-96">
-                <div className="text-center">
-                  <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-orange-500 text-4xl font-bold text-white md:h-28 md:w-28">
-                    P
-                  </div>
+              <div className="relative">
+  <div className="absolute -inset-5 rounded-full bg-orange-100 blur-2xl"></div>
 
-                  <p className="text-lg font-bold text-neutral-800">
-                    Developer
-                  </p>
-
-                  <p className="mt-1 text-sm text-neutral-500">
-                    React • Node • MongoDB
-                  </p>
-                </div>
-              </div>
+  <div className="relative h-72 w-72 overflow-hidden rounded-full border-8 border-orange-100 bg-neutral-100 md:h-96 md:w-96">
+    <img
+      src="/images/hello.jpg"
+      alt="Prajina Adhikari"
+      className="h-full w-full object-cover"
+    />
+  </div>
+</div>
 
             </div>
           </div>

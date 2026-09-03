@@ -1,10 +1,19 @@
-const certificates = [
+export const certificates = [
   {
-    title: "Your Certificate",
-    issuer: "Organization Name",
-    year: "2026",
+    title: "Flutter Workshop",
+    organization: "Flutter Workshop",
+    date: "2026",
+    image: "/images/flutter.jpg",
+    description:
+      "Certificate of participation in a Flutter development workshop.",
   },
-  // add more certificates here
-];
 
-export { certificates };
+  {
+    title: "IDEAX Hackathon",
+    organization: "IDEAX Hackathon",
+    date: "2026",
+    image: "/images/hackathon.jpg",
+    description:
+      "Certificate of participation in the IDEAX Hackathon.",
+  },
+];
