@@ -2,7 +2,6 @@ import { useState } from "react";
 import {
   Github,
   ExternalLink,
-  FolderCode,
 } from "lucide-react";
 import { projects } from "../data/projects";
 
@@ -26,6 +25,7 @@ export default function Projects() {
     <section id="projects" className="bg-neutral-50 py-24">
       <div className="section-container">
 
+      
         <div className="mb-10 text-center">
           <p className="mb-3 font-semibold text-orange-500">
             MY PROJECTS
@@ -41,6 +41,7 @@ export default function Projects() {
           </p>
         </div>
 
+        {/* Filters */}
         <div className="mb-10 flex justify-center gap-2">
           {categories.map((category) => (
             <button
@@ -57,24 +58,20 @@ export default function Projects() {
           ))}
         </div>
 
+       
         <div className="grid gap-7 md:grid-cols-2">
 
           {filteredProjects.map((project) => (
             <article
               key={project.title}
-              className="card-hover overflow-hidden rounded-2xl border border-neutral-200 bg-white"
+              className="card-hover rounded-2xl border border-neutral-200 bg-white"
             >
 
-              <div className="flex h-48 items-center justify-center bg-neutral-900">
-                <FolderCode
-                  size={64}
-                  className="text-orange-500"
-                />
-              </div>
-
+          
               <div className="p-6">
 
-                <div className="mb-3 flex items-center justify-between">
+                {/* Category */}
+                <div className="mb-3">
                   <span className="rounded-full bg-orange-50 px-3 py-1 text-xs font-semibold text-orange-600">
                     {project.category}
                   </span>
@@ -84,10 +81,12 @@ export default function Projects() {
                   {project.title}
                 </h3>
 
+                
                 <p className="mt-3 text-sm leading-7 text-neutral-500">
                   {project.description}
                 </p>
 
+               
                 <div className="mt-5 flex flex-wrap gap-2">
                   {project.technologies.map((technology) => (
                     <span
@@ -99,6 +98,7 @@ export default function Projects() {
                   ))}
                 </div>
 
+                
                 <div className="mt-6 flex gap-3">
 
                   <a
@@ -111,17 +111,10 @@ export default function Projects() {
                     GitHub
                   </a>
 
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-neutral-300 px-4 py-2 text-sm font-semibold text-neutral-700 hover:border-orange-500 hover:text-orange-500"
-                  >
-                    <ExternalLink size={16} />
-                    Live Demo
-                  </a>
+                 
 
                 </div>
+
               </div>
 
             </article>

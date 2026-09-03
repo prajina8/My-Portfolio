@@ -13,7 +13,7 @@ body {
 }
 
 ::selection {
-  background: #f97316;
+  background: #301808;
   color: white;
 }
 
@@ -42,9 +42,9 @@ body {
 .orange-gradient {
   background: linear-gradient(
     135deg,
-    #f97316 0%,
-    #ea580c 50%,
-    #c2410c 100%
+    #3c1310 0%,
+    #3c2519 50%,
+    #1d0c06 100%
   );
 }
 

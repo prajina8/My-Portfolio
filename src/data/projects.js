@@ -12,7 +12,7 @@ export const projects = [
     ],
     github:
       "https://github.com/prajina8/Smart-school",
-    demo: "#",
+   
     category: "Full Stack",
   },
 
@@ -28,7 +28,7 @@ export const projects = [
     ],
     github:
       "https://github.com/prajina8/Expense-Tracker",
-    demo: "#",
+ 
     category: "Full-Stack",
   },
 
@@ -43,7 +43,7 @@ export const projects = [
       "MongoDB",
     ],
     github: "https://github.com/prajina8/JobRadar",
-    demo: "#",
+
     category: "Full Stack",
   },
    {
@@ -59,7 +59,7 @@ export const projects = [
     ],
     github:
       "https://github.com/prajina8/Mock-Mitra",
-    demo: "#",
+   
     category: "Full Stack",
   },
 
