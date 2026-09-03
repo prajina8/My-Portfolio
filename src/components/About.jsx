@@ -11,7 +11,7 @@ export default function About() {
       <div className="section-container">
 
         <div className="mb-14 text-center">
-          <p className="mb-3 font-semibold text-orange-500">
+          <p className="mb-3 font-semibold text-black-500">
             ABOUT ME
           </p>
 
@@ -45,7 +45,7 @@ export default function About() {
           <div className="grid gap-4 sm:grid-cols-2">
 
             <div className="card-hover rounded-2xl border border-neutral-200 bg-white p-6">
-              <GraduationCap className="mb-4 text-orange-500" />
+              <GraduationCap className="mb-4 text-black-500" />
               <h3 className="font-bold">Education</h3>
               <p className="mt-2 text-sm text-neutral-500">
                 BSc. CSIT
@@ -53,7 +53,7 @@ export default function About() {
             </div>
 
             <div className="card-hover rounded-2xl border border-neutral-200 bg-white p-6">
-              <Code2 className="mb-4 text-orange-500" />
+              <Code2 className="mb-4 text-black-500" />
               <h3 className="font-bold">Development</h3>
               <p className="mt-2 text-sm text-neutral-500">
                 MERN Stack
@@ -61,7 +61,7 @@ export default function About() {
             </div>
 
             <div className="card-hover rounded-2xl border border-neutral-200 bg-white p-6">
-              <Target className="mb-4 text-orange-500" />
+              <Target className="mb-4 text-black-500" />
               <h3 className="font-bold">Goal</h3>
               <p className="mt-2 text-sm text-neutral-500">
                 Become a strong software developer
@@ -69,7 +69,7 @@ export default function About() {
             </div>
 
             <div className="card-hover rounded-2xl border border-neutral-200 bg-white p-6">
-              <UserRound className="mb-4 text-orange-500" />
+              <UserRound className="mb-4 text-black-500" />
               <h3 className="font-bold">Interests</h3>
               <p className="mt-2 text-sm text-neutral-500">
                 Web & Software Development

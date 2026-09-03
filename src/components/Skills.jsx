@@ -20,7 +20,7 @@ export default function Skills() {
       <div className="section-container">
 
         <div className="mb-14 text-center">
-          <p className="mb-3 font-semibold text-orange-500">
+          <p className="mb-3 font-semibold text-black">
             MY SKILLS
           </p>
 
@@ -45,7 +45,7 @@ export default function Skills() {
                 className="card-hover flex items-center justify-between rounded-xl border border-neutral-200 bg-white p-5"
               >
                 <div className="flex items-center gap-4">
-                  <div className="rounded-lg bg-orange-50 p-3 text-orange-500">
+                  <div className="rounded-lg bg-black-50 p-3 text-black-500">
                     <Icon size={22} />
                   </div>
 

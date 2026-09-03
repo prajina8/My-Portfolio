@@ -16,8 +16,8 @@ export default function Hero() {
         <div className="grid items-center gap-12 md:grid-cols-2">
 
           <div>
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-medium text-orange-600">
-              <span className="h-2 w-2 rounded-full bg-orange-500"></span>
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-black bg-orange-50 px-4 py-2 text-sm font-medium text-black">
+              <span className="h-2 w-2 rounded-full bg-black"></span>
               Available for opportunities
             </div>
 
@@ -26,8 +26,8 @@ export default function Hero() {
             </p>
 
             <h1 className="text-5xl font-extrabold leading-tight text-neutral-900 md:text-7xl">
-              Prajina
-              <span className="text-orange-500">.</span>
+              Prajina Adhikari
+              
             </h1>
 
             <h2 className="mt-4 text-2xl font-bold text-neutral-700 md:text-3xl">
@@ -43,14 +43,14 @@ export default function Hero() {
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition hover:bg-orange-600"
+                className="inline-flex items-center gap-2 rounded-lg bg-black px-6 py-3 font-semibold text-white transition hover:bg-black"
               >
                 View My Work
                 <ArrowDown size={18} />
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/PrajinaCV.pdf"
                 download
                 className="inline-flex items-center gap-2 rounded-lg border border-neutral-300 px-6 py-3 font-semibold text-neutral-700 transition hover:border-orange-500 hover:text-orange-500"
               >
@@ -64,7 +64,7 @@ export default function Hero() {
                 href="https://github.com/prajina8"
                 target="_blank"
                 rel="noreferrer"
-                className="text-neutral-500 hover:text-orange-500"
+                className="text-neutral-500 hover:text-black"
               >
                 <Github />
               </a>
@@ -80,7 +80,7 @@ export default function Hero() {
 
               <a
                 href="mailto:your-email@example.com"
-                className="text-neutral-500 hover:text-orange-500"
+                className="text-neutral-500 hover:text-black"
               >
                 <Mail />
               </a>
@@ -90,7 +90,7 @@ export default function Hero() {
           <div className="flex justify-center md:justify-end">
             <div className="relative">
 
-              <div className="absolute -inset-5 rounded-full bg-orange-100 blur-2xl"></div>
+              <div className="absolute -inset-5 rounded-full bg-black blur-2xl"></div>
 
               <div className="relative">
   <div className="absolute -inset-5 rounded-full bg-orange-100 blur-2xl"></div>

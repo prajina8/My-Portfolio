@@ -27,7 +27,7 @@ export default function Projects() {
 
       
         <div className="mb-10 text-center">
-          <p className="mb-3 font-semibold text-orange-500">
+          <p className="mb-3 font-semibold text-black">
             MY PROJECTS
           </p>
 
@@ -49,8 +49,8 @@ export default function Projects() {
               onClick={() => setFilter(category)}
               className={`rounded-full px-5 py-2 text-sm font-semibold transition ${
                 filter === category
-                  ? "bg-orange-500 text-white"
-                  : "bg-white text-neutral-600 hover:text-orange-500"
+                  ? "bg-black text-white"
+                  : "bg-white text-neutral-600 hover:text-black"
               }`}
             >
               {category}
@@ -72,7 +72,7 @@ export default function Projects() {
 
                 {/* Category */}
                 <div className="mb-3">
-                  <span className="rounded-full bg-orange-50 px-3 py-1 text-xs font-semibold text-orange-600">
+                  <span className="rounded-full bg-black px-3 py-1 text-xs font-semibold text-white">
                     {project.category}
                   </span>
                 </div>

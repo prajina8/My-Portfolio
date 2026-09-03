@@ -13,9 +13,9 @@ export default function Certificates() {
     >
       <div className="section-container">
 
-        {/* Heading */}
+       
         <div className="mb-14 text-center">
-          <p className="mb-3 font-semibold text-orange-500">
+          <p className="mb-3 font-semibold text-black">
             CERTIFICATES
           </p>
 
@@ -29,7 +29,7 @@ export default function Certificates() {
           </p>
         </div>
 
-        {/* Certificate Cards */}
+   
         <div className="grid gap-8 md:grid-cols-2">
 
           {certificates.map((certificate) => (
@@ -38,7 +38,6 @@ export default function Certificates() {
               className="card-hover overflow-hidden rounded-2xl border border-neutral-200 bg-white"
             >
 
-              {/* Certificate Image */}
               <div className="overflow-hidden bg-neutral-100">
                 <img
                   src={certificate.image}
@@ -47,12 +46,12 @@ export default function Certificates() {
                 />
               </div>
 
-              {/* Certificate Information */}
+              
               <div className="p-6">
 
                 <div className="mb-4 flex items-center gap-3">
 
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-orange-50 text-orange-500">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-black text-white">
                     <Award size={22} />
                   </div>
 
@@ -61,7 +60,7 @@ export default function Certificates() {
                       {certificate.title}
                     </h3>
 
-                    <p className="text-sm text-orange-500">
+                    <p className="text-sm text-black">
                       {certificate.organization}
                     </p>
                   </div>
@@ -81,7 +80,7 @@ export default function Certificates() {
                   href={certificate.image}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-5 inline-flex items-center gap-2 rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600"
+                  className="mt-5 inline-flex items-center gap-2 rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600"
                 >
                   View Certificate
                   <ExternalLink size={16} />

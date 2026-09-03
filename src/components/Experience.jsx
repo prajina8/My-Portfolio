@@ -9,7 +9,7 @@ export default function Experience() {
       <div className="section-container">
 
         <div className="mb-14 text-center">
-          <p className="mb-3 font-semibold text-orange-500">
+          <p className="mb-3 font-semibold text-black-500">
             EXPERIENCE
           </p>
 
@@ -20,9 +20,9 @@ export default function Experience() {
 
         <div className="mx-auto max-w-3xl">
 
-          <div className="relative border-l-2 border-orange-200 pl-8">
+          <div className="relative border-l-2 border-black-200 pl-8">
 
-            <div className="absolute -left-3 top-0 flex h-6 w-6 items-center justify-center rounded-full bg-orange-500 ring-8 ring-orange-50">
+            <div className="absolute -left-3 top-0 flex h-6 w-6 items-center justify-center rounded-full bg-black ring-8 ring-orange-50">
               <div className="h-2 w-2 rounded-full bg-white"></div>
             </div>
 
@@ -34,7 +34,7 @@ export default function Experience() {
                   <div className="flex items-center gap-2">
                     <BriefcaseBusiness
                       size={19}
-                      className="text-orange-500"
+                      className="text-black"
                     />
 
                     <h3 className="text-xl font-bold">

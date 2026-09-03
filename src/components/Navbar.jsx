@@ -37,7 +37,7 @@ export default function Navbar() {
             className="text-xl font-extrabold"
           >
             <span className="text-neutral-900">Prajina</span>
-            <span className="text-orange-500">.</span>
+            
           </button>
 
           <div className="hidden items-center gap-7 md:flex">
@@ -45,7 +45,7 @@ export default function Navbar() {
               <button
                 key={id}
                 onClick={() => scrollToSection(id)}
-                className="text-sm font-medium text-neutral-600 transition hover:text-orange-500"
+                className="text-sm font-medium text-neutral-600 transition hover:text-black-500"
               >
                 {name}
               </button>
@@ -73,7 +73,7 @@ export default function Navbar() {
 
             <button
               onClick={() => scrollToSection("contact")}
-              className="rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600"
+              className="rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600"
             >
               Contact Me
             </button>
@@ -94,7 +94,7 @@ export default function Navbar() {
                 <button
                   key={id}
                   onClick={() => scrollToSection(id)}
-                  className="rounded-lg px-3 py-3 text-left text-sm font-medium hover:bg-orange-50 hover:text-orange-500"
+                  className="rounded-lg px-3 py-3 text-left text-sm font-medium hover:bg-orange-50 hover:text-black-500"
                 >
                   {name}
                 </button>
