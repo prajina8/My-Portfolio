@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   Github,
-  ExternalLink,
+ 
 } from "lucide-react";
 import { projects } from "../data/projects";
 
@@ -70,7 +70,7 @@ export default function Projects() {
           
               <div className="p-6">
 
-                {/* Category */}
+                
                 <div className="mb-3">
                   <span className="rounded-full bg-black px-3 py-1 text-xs font-semibold text-white">
                     {project.category}

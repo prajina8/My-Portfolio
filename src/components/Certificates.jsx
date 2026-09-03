@@ -75,7 +75,7 @@ export default function Certificates() {
                   {certificate.description}
                 </p>
 
-                {/* View Certificate */}
+               
                 <a
                   href={certificate.image}
                   target="_blank"
