@@ -4,6 +4,7 @@ import {
   Linkedin,
   Mail,
   Download,
+  Facebook,
 } from "lucide-react";
 
 export default function Hero() {
@@ -77,9 +78,18 @@ export default function Hero() {
 >
   <Linkedin size={19} />
 </a>
+    <a
+  href="https://www.facebook.com/share/18Bue9rdvJ/"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Facebook"
+  className="text-neutral-500 hover:text-black transition-colors"
+>
+  <Facebook size={20} />
+</a>
 
               <a
-                href="mailto:your-email@example.com"
+                href="mailto:prajinaadhikari5@gmail.com"
                 className="text-neutral-500 hover:text-black"
               >
                 <Mail />

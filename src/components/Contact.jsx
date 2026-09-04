@@ -71,13 +71,13 @@ export default function Contact() {
             <div className="mt-8 space-y-5">
 
               <a
-                href="mailto:your-email@example.com"
+                href="mailto:prajinaadhikari5@gmail.com"
                 className="flex items-center gap-4 text-neutral-300 hover:text-orange-500"
               >
                 <div className="rounded-lg bg-neutral-800 p-3">
                   <Mail size={20} />
                 </div>
-                your-email@example.com
+                prajinaadhikari5@gmail.com
               </a>
 
               <div className="flex items-center gap-4 text-neutral-300">
