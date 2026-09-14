@@ -107,7 +107,7 @@ export default function Hero() {
 
   <div className="relative h-72 w-72 overflow-hidden rounded-full border-8 border-orange-100 bg-neutral-100 md:h-96 md:w-96">
     <img
-      src="My-Portfolio/images/hello.jpg"
+      src={`${import.meta.env.BASE_URL}images/hello.jpg`}
       alt="Prajina Adhikari"
       className="h-full w-full object-cover"
     />
