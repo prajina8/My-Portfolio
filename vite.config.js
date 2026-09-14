@@ -8,5 +8,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-   base: '/My-Portfoliotype dist\index.html/',
+   base: '/My-Portfolio/',
 })
